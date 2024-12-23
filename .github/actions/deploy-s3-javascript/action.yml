@@ -11,6 +11,9 @@ inputs:
   dist-folder:
     description: 'The folder containing deployable files'
     required: true
+outputs:
+  website-url:
+    description: 'Cache was used'
 runs:
   using: 'node20'
   main: 'main.js'
